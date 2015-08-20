@@ -1,0 +1,1 @@
+../../../RBQFetchedResultsController/RBQFetchedResultsController/RealmUtilities/RBQSafeRealmObject.h

@@ -1,0 +1,23 @@
+PODS:
+  - ABFRealmMapView (1.0):
+    - RBQFetchedResultsController
+    - Realm
+  - RBQFetchedResultsController (1.8.9.5):
+    - Realm
+  - Realm (0.94.0):
+    - Realm/Headers (= 0.94.0)
+  - Realm/Headers (0.94.0)
+  - RealmSFRestaurantData (0.2):
+    - Realm
+
+DEPENDENCIES:
+  - ABFRealmMapView
+  - RealmSFRestaurantData
+
+SPEC CHECKSUMS:
+  ABFRealmMapView: 07787c16756ede01c2e2c2ccbc75efc9909fbdd5
+  RBQFetchedResultsController: 955286226119df6e7d31fb347b73c32cad3bb77c
+  Realm: a046149653e0ca220b65b5783da907aa5b74d86c
+  RealmSFRestaurantData: 0c1c513eb25e2a507a7c97d2ae546cf48c2bc2bf
+
+COCOAPODS: 0.37.2

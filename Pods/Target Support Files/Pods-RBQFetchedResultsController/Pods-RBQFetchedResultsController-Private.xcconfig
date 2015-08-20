@@ -1,0 +1,9 @@
+#include "Pods-RBQFetchedResultsController.xcconfig"
+CONFIGURATION_BUILD_DIR = $PODS_FRAMEWORK_BUILD_PATH
+FRAMEWORK_SEARCH_PATHS = "$PODS_FRAMEWORK_BUILD_PATH"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/RBQFetchedResultsController" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ABFRealmMapView" "${PODS_ROOT}/Headers/Public/RBQFetchedResultsController" "${PODS_ROOT}/Headers/Public/Realm" "${PODS_ROOT}/Headers/Public/Realm/realm" "${PODS_ROOT}/Headers/Public/RealmSFRestaurantData"
+OTHER_LDFLAGS = -ObjC
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

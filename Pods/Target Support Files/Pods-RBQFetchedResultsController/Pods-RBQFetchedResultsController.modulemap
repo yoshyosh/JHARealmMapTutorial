@@ -1,0 +1,6 @@
+framework module RBQFetchedResultsController {
+  umbrella header "Pods-RBQFetchedResultsController-umbrella.h"
+
+  export *
+  module * { export * }
+}
